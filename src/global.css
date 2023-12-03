@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+:root {
+  --font-inter: Inter;
+  --font-outfit: Outfit;
+
+  --font-size-base: 16px;
+  --font-size-6xl: 25px;
+  --font-size-xl: 20px;
+  --font-size-37xl: 56px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-66xl: 85px;
+
+  --color-seashell: #fdf2ec;
+  --color-gray-100: #767575;
+  --color-gray-200: #212121;
+  --color-gray-300: #1c1c1c;
+  --color-gray-400: rgba(118, 117, 117, 0.05);
+  --color-gray-500: rgba(255, 255, 255, 0.03);
+  --color-gray-600: rgba(118, 117, 117, 0.1);
+  --color-darkslategray: #333;
+  --color-white: #fff;
+  --color-lavender: #ededfa;
+  --color-blueviolet-100: #8247ff;
+  --color-blueviolet-200: rgba(130, 71, 255, 0.2);
+  --color-coral: #fe8162;
+  --color-ghostwhite: #f7f8fd;
+
+  --gap-3xs: 10px;
+  --gap-xl: 20px;
+  --gap-8xs: 5px;
+  --gap-41xl: 60px;
+  --gap-11xl: 30px;
+  --gap-xs: 12px;
+  --gap-mini: 15px;
+  --gap-lgi: 19px;
+  --gap-5xl: 24px;
+  --gap-21xl: 40px;
+  --gap-9xs: 4px;
+
+  --padding-21xl: 40px;
+  --padding-10xs: 3px;
+  --padding-3xs: 10px;
+  --padding-31xl: 50px;
+  --padding-61xl: 80px;
+  --padding-13xl-6: 32.6px;
+  --padding-11xl: 30px;
+  --padding-smi-2: 12.2px;
+  --padding-xl: 20px;
+  --padding-10xl-7: 29.7px;
+  --padding-mini: 15px;
+
+  --br-11xl: 30px;
+  --br-lg: 18px;
+  --br-5xs: 8px;
+  --br-81xl: 100px;
+  --br-xs: 12px;
+  --br-xl: 20px;
+  --br-8xl: 27px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+.buy-template {
+  color: blue;
+  text-decoration: underline;
+}
+.buy-template:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.testimonials1 {
+  color: #333;
+  transition: color 0.3s ease;
+}
+.testimonials1:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.pricing2 {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.pricing2:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.faq1 {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.faq1:hover {
+  color: #ff6600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.features1 {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.features1:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link-testimonials {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.link-testimonials:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link-pricing {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.link-pricing:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link-faq {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.link-faq:hover {
+  color: #ff6600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link-features {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.link-features:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.get-started {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.get-started:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.whatch-demo {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.whatch-demo:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.features {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.features:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.faq {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.faq:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.pricing {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.pricing:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.testimonials {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.testimonials:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.premier-features {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.premier-features {
+  color: #333;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.capabilities {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.capabilities:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+and-more .and-more {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.and-more:hover {
+  color: #333;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.divframer-1am5xcs {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.divframer-1am5xcs:hover {
+  color: #b50505;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* @media screen and (max-width: 1366px) {
+  body p {
+  font-size: 30px;
+  }
+  }
+  @media screen and (max-width: 1024px) { body p {
+  font-size: 20px;
+  }
+  }
+  @media screen and (max-width: 768px) { 
+    body p{
+  font-size: 10px;
+  }
+}
+  @media screen and (max-width: 480px) { body p {
+  font-size: 8px;
+  }
+  }
+
+  .responsive {
+    width: 30vw;
+    height: 30vh;
+    }
+    .box {
+    margin: 5px;
+    width: 30%;
+    height: 30%;
+    background-color: red;
+    color: red;
+    border: 1px black solid;
+    } */
